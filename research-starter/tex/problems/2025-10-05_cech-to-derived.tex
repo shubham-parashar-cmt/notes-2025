@@ -1,0 +1,22 @@
+\section{From \v{C}ech to derived: a micro-log}\label{sec:cech-derived}
+Track the exact assumptions under which the \v{C}ech complex computes sheaf
+cohomology and how this feeds a spectral sequence.
+
+\begin{lemma}\label{lem:cech-acyclic}
+If $\mathcal U=\{U_i\}$ is an acyclic cover for $\mathcal F$ (i.e., $H^q(U_{i_0\cdots i_p},\mathcal F)=0$ for $q>0$), then the \v{C}ech complex $C^\bullet(\mathcal U,\mathcal F)$ computes $R\Gamma(X,\mathcal F)$.
+\end{lemma}
+
+\begin{proof}
+Sketch the comparison morphism $C^\bullet(\mathcal U,\mathcal F)\to I^\bullet$
+into an injective resolution and note it is a quasi-isomorphism under acyclicity.
+\end{proof}
+
+\paragraph{Spectral sequence.}
+State the $E_1^{p,q}= \prod H^q(U_{i_0\cdots i_p},\mathcal F)\Rightarrow H^{p+q}(X,\mathcal F)$
+and the precise hypotheses.
+
+\paragraph{Next step.}
+Record the smallest condition you actually need in the target application.
+
+\paragraph{References.}
+Godement, Stacks Project Tags 01DW, 01DS; FOAG §.
